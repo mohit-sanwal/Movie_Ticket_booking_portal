@@ -5,6 +5,7 @@ import "./assets/css/bootstrap.min.css";
 import Layout from "./module/Layout/Layout";
 
 function App(props) {
+  console.log("props-----", props)
   return (
     <div className="App">
       <Layout history={props.history}></Layout>

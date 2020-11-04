@@ -58,7 +58,7 @@ axios.interceptors.response.use(
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store} history={createBrowserHistory}>
+    <Provider store={store} >
       <App />
     </Provider>
   </React.StrictMode>,

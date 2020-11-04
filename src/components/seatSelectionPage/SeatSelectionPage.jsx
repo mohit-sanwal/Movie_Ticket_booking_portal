@@ -27,14 +27,21 @@ class SeatSelectionPage extends React.Component {
 
   selectSeats = (id, count) => {
     let seatCount = this.props.location.state.numberOfSeats;
-    if (!this.state.isSelected) {
+    if (!this.state.isSelected || this.state.seats.includes(count)) {
       let arr = this.state.seats;
-      if (arr.includes(count)) {
-        let index = arr.indexOf(count)
-        arr.splice(index, 1);
-      }
       let isSelected;
       let payAmount = this.state.payAmount;
+      if (arr.includes(count)) {
+        let index = arr.indexOf(count)
+        console.log("index", index)
+        arr.splice(index, 1);
+        if (id === "pt1")  {
+          payAmount = payAmount - 300
+        } else {
+          payAmount = payAmount - 200
+        }
+        console.log("arr", arr)
+      } else {
       console.log("arr.length !== seatCount", arr.length !== seatCount,  arr.length, seatCount)
       if (arr.length !== seatCount) {
         arr.push(count)
@@ -47,6 +54,7 @@ class SeatSelectionPage extends React.Component {
             isSelected = true
         }
       }
+    }
       this.setState({
         seats: arr,
         isSelected: isSelected,
