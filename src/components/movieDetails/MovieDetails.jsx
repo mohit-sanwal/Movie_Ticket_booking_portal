@@ -24,9 +24,9 @@ movieDetails = (data) => {
        <React.Fragment>
          {Object.keys(movieDetails) ? <div className="mv-details-bg">
             <img src={movieDetails.movieImg } className="mv-details-img" />
-            <p> Movie - {movieDetails.moviename} </p>
-            <p> Rating -  {movieDetails.movieRating } </p>
-            <p> Language - {movieDetails.movieType } </p>
+            <p className="mv-txt"> Movie - {movieDetails.moviename} </p>
+            <p className="mv-txt rate"> Rating -  {movieDetails.movieRating } </p>
+            <p className="mv-txt rate"> Language - {movieDetails.movieType } </p>
             <button className= "btn btn-success mb-5" onClick={this.bookTicket}> book Ticket </button>
          </div> : ""}
          <p className="mb-5"><b> Recommended -</b> </p>

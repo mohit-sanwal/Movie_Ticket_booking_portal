@@ -7,10 +7,10 @@
 }
 
 
-.movie-box {
-  margin-right: 12px;
-}
 
+.movie-box:not(:last-child) {
+    margin-right: 12px;
+}
 
 .movie-img {
     height: 300px;

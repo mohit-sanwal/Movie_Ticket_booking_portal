@@ -3,10 +3,23 @@
   width: 29%;
   max-height: 400px;
   padding: 12px;
+  border-radius: 30px;
 }
 
 
 .mv-details-bg {
   background: gray;
- margin-bottom: 28px;
+  margin-bottom: 28px;
+}
+
+
+.mv-txt {
+  color: white;
+  font-size: 20px;
+  fonnt-weight: 900;
+  font-family: monospace;
+}
+
+.mv-txt.rate {
+    color: #555!important;
 }
