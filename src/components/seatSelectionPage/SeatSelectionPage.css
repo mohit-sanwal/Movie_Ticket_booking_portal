@@ -1,0 +1,35 @@
+.pts-container {
+  display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    padding: 24px;
+}
+
+.mr-right {
+   margin-right: 10px;
+}
+
+.pts-clm {
+  display: flex;
+  flex-direction: row;
+}
+
+.pts-seat-dir {
+  margin-bottom: 16px;
+}
+
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.book-seats {
+  float: left;
+    margin-left: 38%;
+  }
+
+
+  .pay-btn {
+    margin: 42px;
+  }

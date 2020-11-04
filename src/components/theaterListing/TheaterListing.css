@@ -1,0 +1,10 @@
+.th-listing {
+  list-style: none
+}
+
+
+.th-listing li {
+  padding: 12px;
+  width: 100%;
+  border-bottom: 1px solid;
+}

@@ -1,0 +1,17 @@
+.header-container {
+  height: 65px;
+  background: #333545;
+  padding: 8px 10px;
+}
+
+
+.back-btn {
+  width: 50px;
+    background: white;
+    float: left;
+}
+
+.logo_pos {
+  position: absolute;
+    top: 1%;
+}

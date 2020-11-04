@@ -1,0 +1,17 @@
+.error-msg {
+  color: red;
+}
+
+.pts-seat {
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin: 16px 10px 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.seat-selected {
+  background: green;
+  color: white;
+}
