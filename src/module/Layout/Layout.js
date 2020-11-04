@@ -22,11 +22,11 @@ const SEAT_SELECTION_PAGE = lazy(() =>
 );
 
 // const Aux = (props) => props.children;
-console.log("history", history)
+console.log("history===========>", history)
 const Layout = (props) => {
   return (
     <Suspense fallback={<div>&nbsp;</div>}>
-      <PageContainer >
+      <PageContainer history={props.history}>
         <BrowserRouter >
           <Switch>
             <Route path={Config.PATH_TO_HOME_PAGE} exact component={HOME_PAGE}></Route>

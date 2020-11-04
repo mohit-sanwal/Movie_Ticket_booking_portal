@@ -3,3 +3,9 @@
   width: 50%;
   max-height: 400px;
 }
+
+
+.mv-details-bg {
+  background: gray;
+ margin-bottom: 28px;
+}
