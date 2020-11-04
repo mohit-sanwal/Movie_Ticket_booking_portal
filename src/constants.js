@@ -33,32 +33,32 @@ movieType : "Hindi"
 },
 {
 movieId: 5,
-movieImg : "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MzI4IGxpa2Vz,ots-29,otc-FFFFFF,oy-612,ox-70/et00145555-stjucrtvxl-portrait.jpg",
-moviename: "The Rental",
+movieImg : "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-OTAlICAzOWsgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70/et00116808-mvndegtbvq-portrait.jpg",
+moviename: "1917",
 movieRating : "A",
 movieType : "English"
 
 },
 {
 movieId: 6,
-movieImg : "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MzI4IGxpa2Vz,ots-29,otc-FFFFFF,oy-612,ox-70/et00145555-stjucrtvxl-portrait.jpg",
-moviename: "The Rental",
+movieImg : "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29/et00300010-dvtshxnwmh-portrait.jpg",
+moviename: "Break the Silence: The Movie",
 movieRating : "A",
 movieType : "English"
 
 },
 {
 movieId: 7,
-movieImg : "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MzI4IGxpa2Vz,ots-29,otc-FFFFFF,oy-612,ox-70/et00145555-stjucrtvxl-portrait.jpg",
-moviename: "The Rental",
+movieImg : "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-ODIlICAyOTZrIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70/et00058565-afelnrfqhf-portrait.jpg",
+moviename: "Sonu Ke Titu Ki Sweety",
 movieRating : "A",
-movieType : "English"
+movieType : "Hindi"
 
 },
 {
 movieId: 8,
-movieImg : "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MzI4IGxpa2Vz,ots-29,otc-FFFFFF,oy-612,ox-70/et00145555-stjucrtvxl-portrait.jpg",
-moviename: "The Rental",
+movieImg : "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-ODclICA0NDhrIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70/et00042769-hcehcjntcg-portrait.jpg",
+moviename: "KGF",
 movieRating : "A",
 movieType : "English"
 
