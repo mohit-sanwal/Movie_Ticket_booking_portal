@@ -28,7 +28,7 @@ class MovieListComp extends React.Component {
 
 render() {
   return (
-     <div className="movie-container">
+     <div className="movie-container mt-5">
        {this.props.moviesList.map((movie, index) =>
          <div className="movie-box" key={index} onClick={() => this.goToMovieDetailPage(movie)}>
              <img className="movie-img" src={movie.movieImg } />

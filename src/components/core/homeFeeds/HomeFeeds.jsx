@@ -14,7 +14,10 @@ const HomeFeeds = (props) => {
          el: '.swiper-pagination',
          clickable: true,
        },
-       autoPlay: true,
+       autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
        breakpoints: {
          '@0.00': {
            slidesPerView: 1,

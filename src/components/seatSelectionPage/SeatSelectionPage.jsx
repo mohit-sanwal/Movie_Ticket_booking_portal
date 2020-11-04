@@ -2,6 +2,7 @@ import React from "react";
 import "./SeatSelectionPage.css";
 import "../../util/commonStyle.css";
 import CongratulationsPopup from "../popups/congratulationsPopup/CongratulationsPopup"
+import CarouselContainer from "../core/carouselContainer/CarouselContainer"
 class SeatSelectionPage extends React.Component {
   constructor(props) {
     super(props);
@@ -122,6 +123,9 @@ class SeatSelectionPage extends React.Component {
 
              {isSelected ? <button className="btn btn-success pay-btn" onClick={this.showCongratsPopup}> Pay {this.state.payAmount}</button> : ""}
              <CongratulationsPopup  status={this.state.showCongrats} closeModal={this.closeModal}/>
+         </div>
+         <div className="clear-float">
+            <CarouselContainer />
          </div>
        </React.Fragment>
     )

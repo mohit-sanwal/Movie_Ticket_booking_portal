@@ -7,6 +7,7 @@ import "../Modal.css";
 import "./SeatCountInfoPopup.css";
 import "../../../util/commonStyle.css";
 import Config from "../../../config.js";
+import howMny from "../../../assets/images/howManyseats.jpg"
 
 class seatCountInfoPopupComp extends React.Component {
   constructor(props) {
@@ -71,6 +72,9 @@ class seatCountInfoPopupComp extends React.Component {
                 </p>
               </div>
               <div className="row p-2">
+                 <p>
+                  <img src={howMny} width="200" className="howMny-seats"/>
+                 </p>
                 <p
                   className="col-7 text-left black-txt-normal pt-3 pl-2"
                   style={{ borderTop: "1px solid #cccccc" }}

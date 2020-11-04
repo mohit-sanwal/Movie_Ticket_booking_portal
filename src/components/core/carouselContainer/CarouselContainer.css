@@ -1,4 +1,8 @@
 
 .carousel-items {
-   width: 100%;
+   /* width: 100%; */
+}
+
+.banner-img {
+  height: 200px
 }

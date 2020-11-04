@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import congo from "../../../assets/images/congrats.jpg"
 import { setSeatCount } from "../../../store/actions/actions.js"
 import { withRouter } from "react-router-dom";
 import "../Modal.css";
@@ -33,6 +34,7 @@ class CongratulationsPopup extends React.Component {
               </div>
               <div className="row p-2">
                 <span> congratulation your seats has been booked. </span>
+                <img src={congo}  width="300" />
                 <p
                   className="col-7 text-left black-txt-normal pt-3 pl-2"
                   style={{ borderTop: "1px solid #cccccc" }}

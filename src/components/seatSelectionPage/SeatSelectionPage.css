@@ -33,3 +33,8 @@
   .pay-btn {
     margin: 42px;
   }
+
+  .clear-float {
+    clear: both;
+    margin-top: 42px;
+  }

@@ -114,3 +114,13 @@ export const  THEATERS_DTO = [
  thTime :  "10:30 PM",
   thId : 8000
 }]
+
+export const BANNER_IMAGES = [
+  "https://in.bmscdn.com/showcaseimage/eventimage/clean-jokes-only-22-10-2020-02-18-37-452.jpg",
+  "https://in.bmscdn.com/showcaseimage/eventimage/global-mba-program-03-11-2020-06-57-22-904.jpg",
+  "https://in.bmscdn.com/showcaseimage/eventimage/sunburn-goa-2020-04-11-2020-11-46-03-396.jpg",
+  "https://in.bmscdn.com/showcaseimage/eventimage/big-cafe-online-with-sunidhi-chauhan-28-10-2020-03-07-20-733.jpg",
+  "https://in.bmscdn.com/showcaseimage/eventimage/imagicaa-theme-park-31-10-2020-01-24-47-315.jpg",
+  "https://in.bmscdn.com/showcaseimage/eventimage/online-workshops--prithvi-08-10-2020-04-56-46-678.jpg",
+  "https://in.bmscdn.com/showcaseimage/eventimage/good-comedy-show-28-08-2020-08-32-42-565.jpg",
+]
