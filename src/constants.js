@@ -62,39 +62,55 @@ moviename: "KGF",
 movieRating : "A",
 movieType : "English"
 
+},
+{
+movieId: 9,
+movieImg : "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-NzElICA3OGsgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70/et00111934-zrtyubzgce-portrait.jpg",
+moviename: "Shubh Mangal Zyada Saavdhan",
+movieRating : "A",
+movieType : "Hindi"
+
+},
+{
+movieId: 10,
+movieImg : "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-OTAlICA2MjRrIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70/et00062444-xackjhmlyt-portrait.jpg",
+moviename: "URI - The Surgical Strike",
+movieRating : "A",
+movieType : "Hindi"
+
 }]
 
 
 export const  THEATERS_DTO = [
 {thName : "Miraj Cinemas: Subhash Nagar A",
- thTime :  "10:30",
-  thId : 1
+ thTime :  "10:30 AM",
+  thId : 1000
 },
 {thName : "Miraj Cinemas: Subhash Nagar B",
- thTime :  "10:30",
-  thId : 2
+ thTime :  "10:30 AM",
+  thId : 2000
 },
 {thName : "Miraj Cinemas: Subhash Nagar c",
- thTime :  "10:30",
-  thId : 3
+ thTime :  "11:30 AM",
+  thId : 3000
 },
 {thName : "Miraj Cinemas: Subhash Nagar D",
- thTime :  "10:30",
-  thId : 4,
+ thTime :  "10:30 AM",
+  thId : 4000,
 },
 {thName : "Miraj Cinemas: Subhash Nagar 1",
- thTime :  "10:30",
-  thId : 4,
+ thTime :  "12:30 PM",
+  thId : 5000,
 },
 {thName : "Miraj Cinemas: Subhash Nagar 2",
- thTime :  "10:30",
-  thId : 4
+ thTime :  "02:30 PM",
+  thId : 6000
 },
 {thName : "Miraj Cinemas: Subhash Nagar 3",
- thTime :  "10:30",
-  thId : 4
+ thTime :  "04:30 PM",
+  thId : 7000
 },
 {thName : "Miraj Cinemas: Subhash Nagar 4",
- thTime :  "10:30",
-  thId : 4
+ thTime :  "10:30 PM",
+  thId : 8000
 }]

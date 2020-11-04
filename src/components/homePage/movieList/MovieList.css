@@ -1,23 +1,14 @@
 .movie-container {
-  display: flex;
+   display: flex;
    width: 100%;
-   /* height: 100px; */
-   align-items: center; /* Align Items Vertically */
-   justify-content: space-between; /* Align Items Horizontally (with equal space in between each of them */
    background: #eee;
    flex-wrap: wrap;
+   justify-content: flex-start;
 }
 
 
-.moviebox {
-  display: flex;
-   width: 100%;
-   height: 100px;
-   align-items: center; /* Align Items Vertically */
-   justify-content: space-between; /* Align Items Horizontally (with equal space in between each of them */
-   background: #eee;
-   flex-direction: column;
-   cursor: pointer;
+.movie-box {
+  margin-right: 12px;
 }
 
 
