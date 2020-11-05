@@ -1,6 +1,7 @@
 
 .carousel-items {
    /* width: 100%; */
+   clear: both;
 }
 
 .banner-img {

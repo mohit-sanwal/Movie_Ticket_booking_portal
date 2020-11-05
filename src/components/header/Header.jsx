@@ -59,6 +59,7 @@ class Header extends React.Component {
          <div className="header-container">
            {isbackBtn ? <img src= {backBtn} onClick={this.goBack} className="back-btn" /> : "" }
             <p className="headerTxt"> {this.state.headerTxt} </p>
+            <div className="clear"></div>
             <div>
               <img src={bmslogo} width="100" height="50" onClick={this.goToHome} className="logo_pos"/>
             </div>
