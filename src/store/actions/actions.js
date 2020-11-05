@@ -56,7 +56,6 @@ export function getListing() {
 }
 
 export function getMoviesList() {
-  console.log("Constants", Constants)
   return function (dispatch) {
     dispatch(success(actionType.GET_MOVIE_LIST_SUCCESS, Constants.MOVIES_LIST_DTO))
   };

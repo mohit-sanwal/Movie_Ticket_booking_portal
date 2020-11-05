@@ -19,7 +19,6 @@ class seatCountInfoPopupComp extends React.Component {
 
   selectedSeatCount = async () => {
     await this.props.setSeatCount(this.state.numberOfSeats);
-    console.log("this.props", this.props)
     this.props.history.push(Config.PATH_TO_SEAT_SELECTION_PAGE, {numberOfSeats : this.state.numberOfSeats})
   }
 
@@ -102,7 +101,6 @@ class seatCountInfoPopupComp extends React.Component {
 
 
 const mapStateToProps = (state) => {
-  console.log("seatsCount", state)
   return {
     seatsCount : state.seatsCount
   };

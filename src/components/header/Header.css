@@ -6,12 +6,24 @@
 
 
 .back-btn {
-  width: 50px;
+    width: 50px;
     background: white;
     float: left;
+    border-radius: 30px;
+    cursor: pointer;
 }
 
 .logo_pos {
   position: absolute;
-    top: 1%;
+  top: 1%;
+  cursor: pointer;
+}
+
+
+.headerTxt {
+color: white;
+float: left;
+padding: 8px;
+font-weight: bold;
+font-size: 23px;
 }

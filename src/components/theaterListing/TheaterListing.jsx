@@ -37,7 +37,7 @@ class TheaterListingComp extends React.Component {
           <div>
              <p> {this.props.location.state.name} </p>
           </div>
-          { !theatersList ? "" : <ul class="th-listing">
+          { !theatersList ? "" : <ul className="th-listing">
              { theatersList.map((theater, index) =>
                <li key={index}>
                   {index + 1} : {theater.thName} <span onClick={this.showSeatCountInfo} className="pts-seat"> {theater.thTime}</span>
@@ -53,7 +53,6 @@ class TheaterListingComp extends React.Component {
 
 
 const mapStateToProps = (state) => {
-  console.log("theatersListData", state)
   return {
     theatersList: state.theatersListData
   };

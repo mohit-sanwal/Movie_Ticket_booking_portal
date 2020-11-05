@@ -49,7 +49,6 @@ render() {
 }
 
 const mapStateToProps = (state) => {
-  console.log("movie", state)
   return {
     moviesList: state.movieListData,
   };

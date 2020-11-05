@@ -27,6 +27,7 @@
 .book-seats {
   float: left;
     margin-left: 38%;
+    clear: both;
   }
 
 

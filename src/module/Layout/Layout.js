@@ -22,26 +22,25 @@ const SEAT_SELECTION_PAGE = lazy(() =>
 );
 
 // const Aux = (props) => props.children;
-console.log("history===========>", history)
 const Layout = (props) => {
   return (
     <Suspense fallback={<div>&nbsp;</div>}>
-      <PageContainer history={props.history}>
-        <BrowserRouter >
-          <Switch>
-            <Route path={Config.PATH_TO_HOME_PAGE} exact component={HOME_PAGE}></Route>
-            <Route path={Config.PATH_TO_MOVIE_DETAIL_PAGE} exact component={MOVIE_DETAILS}></Route>
-            <Route path={Config.PATH_TO_THEATER_PAGE} exact component={THEATER_LISTING}></Route>
-            <Route path={Config.PATH_TO_SEAT_SELECTION_PAGE} exact component={SEAT_SELECTION_PAGE}></Route>
+    <BrowserRouter >
+      <Switch>
+        <PageContainer history={props.history} >
+              <Route path={Config.PATH_TO_HOME_PAGE} exact component={HOME_PAGE}></Route>
+              <Route path={Config.PATH_TO_MOVIE_DETAIL_PAGE} exact component={MOVIE_DETAILS}></Route>
+              <Route path={Config.PATH_TO_THEATER_PAGE} exact component={THEATER_LISTING}></Route>
+              <Route path={Config.PATH_TO_SEAT_SELECTION_PAGE} exact component={SEAT_SELECTION_PAGE}></Route>
 
-            {/*<PrivateRoute
-              path={Config.PATH_TO_CREATE_USER}
-              exact={true}
-              component={CreateUserForm}
-            />*/}
-          </Switch>
-        </BrowserRouter>
-      </PageContainer>
+              {/*<PrivateRoute
+                path={Config.PATH_TO_CREATE_USER}
+                exact={true}
+                component={CreateUserForm}
+              />*/}
+        </PageContainer>
+        </Switch>
+      </BrowserRouter>
     </Suspense>
   );
 };

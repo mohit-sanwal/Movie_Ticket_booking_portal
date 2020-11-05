@@ -27,8 +27,8 @@ const CaraouselContainer = (props) => {
 
   return(
     <Swiper {...params}>
-      {Constants.BANNER_IMAGES.map((banner) =>
-        <div className="carousel-items">
+      {Constants.BANNER_IMAGES.map((banner, index) =>
+        <div className="carousel-items" key={index}>
           <img  src={banner} className="banner-img"/>
         </div>
       )}

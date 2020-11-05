@@ -34,16 +34,13 @@ class SeatSelectionPage extends React.Component {
       let payAmount = this.state.payAmount;
       if (arr.includes(count)) {
         let index = arr.indexOf(count)
-        console.log("index", index)
         arr.splice(index, 1);
         if (id === "pt1")  {
           payAmount = payAmount - 300
         } else {
           payAmount = payAmount - 200
         }
-        console.log("arr", arr)
       } else {
-      console.log("arr.length !== seatCount", arr.length !== seatCount,  arr.length, seatCount)
       if (arr.length !== seatCount) {
         arr.push(count)
         if (id === "pt1")  {
@@ -81,7 +78,6 @@ class SeatSelectionPage extends React.Component {
 
   render() {
     const {pts, pt, seatDto,seats, payAmount, isSelected} = this.state;
-    console.log("seats", seats, payAmount);
     return (
        <React.Fragment>
          <div className="book-seats">

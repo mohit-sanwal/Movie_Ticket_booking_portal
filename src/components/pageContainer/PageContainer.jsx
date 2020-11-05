@@ -4,7 +4,7 @@ import Header from "../header/Header"
 const PageContainer = (props) => {
   return (
      <React.Fragment>
-       <Header />
+       <Header {...props} key={props.location.pathname}/>
 
         {props.children}
 

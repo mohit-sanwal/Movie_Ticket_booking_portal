@@ -7,10 +7,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import history from "./history";
 
 function App(props) {
-  console.log("props-----", history)
   return (
     <div className="App">
-      <Layout ></Layout>
+      <Layout history={history}></Layout>
     </div>
   );
 }
